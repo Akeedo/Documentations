@@ -1,0 +1,21 @@
+<div class="wp-tab-panel">
+	<ul>
+		<li>
+			<input type="checkbox" value="1">
+			<label> Some Data</label>
+		</li>
+		<li>
+			<input type="checkbox" value="1">
+			<label> Some Data</label>
+		</li>
+		<li>
+			<input type="checkbox" value="1">
+			<label> Some Data</label>
+		</li>
+		<li>
+			<input type="checkbox" value="1">
+			<label> Some Data</label>
+		</li>
+	</ul>
+</div>
+<br/>

@@ -1,0 +1,38 @@
+<p>
+			<label for="<?php echo esc_attr($this->get_field_id('title'));?>"><?php _e('Title','demowidget')?> </label>
+			<input type="text" class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr($this->get_field_name('title'));?>" value="<?php echo esc_attr($title);?>">
+		</p>
+		<p>
+				<label for="<?php echo esc_attr($this->get_field_id('latitude'));?>"><?php _e('Latitude','demowidget')?> </label>
+				<input type="number" class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'latitude' ) ); ?>" name="<?php echo esc_attr($this->get_field_name('latitude'));?>" value="<?php echo esc_attr($latitude);?>">
+		</p>
+		<div class="dw-section dw-col-3">
+			<p>
+				<label for="<?php echo esc_attr($this->get_field_id('title'));?>"><?php _e('Title','demowidget')?> </label>
+				<input type="text" class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr($this->get_field_name('title'));?>" value="<?php echo esc_attr($title);?>">
+			</p>
+			<p>
+				<label for="<?php echo esc_attr($this->get_field_id('latitude'));?>"><?php _e('Latitude','demowidget')?> </label>
+				<input type="number" class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'latitude' ) ); ?>" name="<?php echo esc_attr($this->get_field_name('latitude'));?>" value="<?php echo esc_attr($latitude);?>">
+			</p>
+		</div>
+		<div class="dw-section dw-col-3">
+			<p>
+				<label for="<?php echo esc_attr($this->get_field_id('longitude'));?>"><?php _e('Longitude','demowidget')?> </label>
+				<input type="number" class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'longitude' ) ); ?>" name="<?php echo esc_attr($this->get_field_name('longitude'));?>" value="<?php echo esc_attr($longitude);?>">
+			</p>
+			<p>
+				<label for="<?php echo esc_attr($this->get_field_id('email'));?>"><?php _e('Email','demowidget')?> </label>
+				<input type="email" class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'email' ) ); ?>" name="<?php echo esc_attr($this->get_field_name('email'));?>" value="<?php echo esc_attr($email);?>">
+			</p>
+		</div>
+		<div class="dw-section dw-col-3">
+			<p>
+				<label for="<?php echo esc_attr($this->get_field_id('longitude'));?>"><?php _e('Longitude','demowidget')?> </label>
+				<input type="number" class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'longitude' ) ); ?>" name="<?php echo esc_attr($this->get_field_name('longitude'));?>" value="<?php echo esc_attr($longitude);?>">
+			</p>
+			<p>
+				<label for="<?php echo esc_attr($this->get_field_id('email'));?>"><?php _e('Email','demowidget')?> </label>
+				<input type="email" class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'email' ) ); ?>" name="<?php echo esc_attr($this->get_field_name('email'));?>" value="<?php echo esc_attr($email);?>">
+			</p>
+		</div>
